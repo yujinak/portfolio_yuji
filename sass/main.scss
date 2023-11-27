@@ -1,0 +1,15 @@
+//Importações do BootStrap
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+//Variáveis de cores
+$custom-theme-colors: (
+  "azul": #367cc1,
+  "preto": #1e1e1e,
+);
+
+//Adiciona apps arquivos do Bootstrap
+$theme-colors: map-merge($custom-theme-colors, $theme_colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "custom";

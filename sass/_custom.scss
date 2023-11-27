@@ -1,0 +1,113 @@
+@mixin titulo {
+  color: #fff;
+  font-size: 80px;
+  line-height: 97px;
+}
+
+* {
+  // border: 1px dashed hotpink;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fafafa;
+}
+
+nav {
+  padding: 1.5rem;
+  color: #fafafa;
+  .nav-link {
+    color: #fafafa;
+    &:hover {
+      background-color: #367cc1;
+    }
+  }
+
+  .navbar-text {
+    color: #367cc1;
+  }
+
+  .navbar-toggler {
+    background-color: #367cc1;
+  }
+}
+
+#destaque {
+  padding: 3rem 0;
+  h1 {
+    color: #fff;
+    font-size: 80px;
+    line-height: 97px;
+  }
+  p {
+    color: #7e7e7e;
+    padding-bottom: 1.5rem;
+  }
+
+  .foto-perfil {
+    height: 350px;
+    border-radius: 50%;
+  }
+}
+
+#skills {
+  padding: 5rem 0;
+  color: #22283b;
+  h2 {
+    @include titulo;
+  }
+}
+
+.projetos {
+  color: #fff;
+  padding: 5rem 0;
+  h2 {
+    @include titulo;
+    font-size: 48px;
+    line-height: 56px;
+    padding-bottom: 2rem;
+    color: #fff;
+  }
+  h3 {
+    padding: 1rem 0;
+    color: #fff;
+  }
+}
+
+.contato {
+  padding: 5rem 0;
+  h1 {
+    @include titulo;
+  }
+  p {
+    color: #ffffff;
+  }
+  .links {
+    color: #367cc1;
+  }
+}
+
+.publicacoes {
+  padding: 5rem 0;
+  h1 {
+    @include titulo;
+  }
+  &-lista li {
+    list-style: none;
+    & a {
+      text-decoration: none;
+      color: #ffffff;
+      transition: all ease 0.3s;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+footer {
+  padding: 2rem 0;
+  background-color: #22283b;
+}

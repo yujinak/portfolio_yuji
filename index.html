@@ -8,63 +8,73 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
   </head>
 
-  <header>
   <body class="bg-preto">
+    <header class="sticky-top">
     <nav class="navbar navbar-expand-lg ">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="https://via.placeholder.com/40x40" alt="logo"></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarText"
-          aria-controls="navbarText"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">home</a>
+          <ul class="navbar-nav d-flex me-auto mb-2" >
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="destaque">destaque</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="projetos">projetos</a>
+              <a class="nav-link" href="#skills">projetos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">contato</a>
             </li>
           </ul>
-          <span class="navbar-text">g.yujinak@gmail.com </span>
+          <ul class="navbar-nav ">
+            <li class="nav-item nav-link">
+              <img src="./imagens/envelope-at.svg" alt="Email">
+            </li>
+            <li class="nav-item ms-2 nav-link">
+              <a class="" href="https://www.linkedin.com/in/gabrielyujinakashima/">
+                <img src="./imagens/linkedin.svg" alt="linkedin">
+              </a>
+            </li>
+            <li class="nav-item ms-2 nav-link">
+              <a href="https://github.com/yujinak">
+                <img src="./imagens/github.svg" alt="github"> 
+                
+              </a>
+            </li>
+          </ul>
         </div>
-      </div>
     </nav>
-
-    <div class="container destaque" id="destaque">
-      <div class="row align-items-center">
-        <div data-aos="fade-right" class="col">
-          <h1>Olá! Eu sou o Yuji :]</h1>
-          <button type="button" class="btn btn-azul py-2 px-4">
-            Solicitar orçamento
-          </button>
-        </div>
-        <div class="col">
-          <img class="foto-perfil" data-aos="zoom-in-down" src="/imagens/foto-perfil.jpg" alt="" />
-        </div>
-      </div>
-    <div class="row">
-          <p>Sou Desenvolvedor Web especializado em JavaScript, HTML e CSS. asda sd as dasf asf asdasd asd</p>
-    </div>
 </header>
 
-<div class="section skills bg-azul" id="skills">
+
+    <div class="container destaque " id="destaque">
+      <div class="d-flex align-items-center">
+        <div data-aos="fade-right" class="mx-auto">
+          <h1 class=" ">Olá! Eu sou o Yuji, Desenvolvedor Web :)</h1>
+        </div>
+          <div class="mx-auto">
+            <img class="foto-perfil" data-aos="zoom-in-down" src="https://avatars.githubusercontent.com/u/135712421?v=4" alt="" />
+          </div>
+      </div>
+    <div class="mt-5">
+          <p class=" text-center">Desde pequeno tenho gosto pela tecnologia, o que me motiva a realizar uma transição de carreira da arquitetura
+            para a área da Tecnologia e Desenvolvimento Web. Atualmente, estudo na EBAC, no curso de Desenvolvedor
+            FullStack Java, complementando minha formação com projetos autorais, cursos e participando de grupos. Estou
+            me aprofundando na linguagem JavaScript, com suas bibliotecas e frameworks diversos.
+            Durante essa transição, quero migrar para a área de tecnologia sem perder meus aprendizados da minha primeira
+            formação, onde desenvolvi skills de trabalho em grupo, planejamento de projetos, habilidades visuais e
+            experiências com softwares 2D e 3D diversos. Algumas dessas soft-skills, também pude desenvolver como
+            voluntário em organizações, tendo sido Líder do grupo de tambores japoneses RKMD - Curitiba, e atualmente sou
+            Coordenador de mídias da Associação Okinawa Kenjin de Curitiba.
+            Tenho vivência no exterior, passando pelas universidades internacionais USFX de Sucre (Bolívia), e na OKIU de
+            Okinawa (Japão).</p>
+    </div>
+
+<section class="section skills bg-azul" id="skills">
     <div class="container">
         <div data-aos="zoom-in-down" class="row align-items-center">
             <div  class="col">
                 <h2>skills & experiências</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi doloribus totam excepturi cum deserunt porro architecto rem nobis eos similique, aperiam aliquid nisi voluptatibus minus recusandae harum eius quae pariatur.</p>
+                <p>Aqui apresento um pouco das minhas habilidades e experiências, tanto na área de Tecnologia, quanto em outros setores que já atuei.</p>
             </div>
+
             <!-- início da coluna experiência -->
             <div class="col">
                 <h3 class="p-4">Experiências</h3>
@@ -73,8 +83,9 @@
                         <p>2023-Atual</p>
                     </div>
                     <div class="col">
-                        <h3>Desenvolvedor Front-End</h3>
+                        <h3>Desenvolvedor Web</h3>
                         <p>Autônomo</p>
+                        <p></p>
                     </div>
                 </div> 
                 <hr>
@@ -85,6 +96,9 @@
                     <div class="col">
                         <h3>Arquiteto</h3>
                         <p>Autônomo</p>
+                        <p>Criação e desenvolvimento de projetos, de forma individual e em parceria com outros profissionais.
+                          - Projetos de arquitetura e de reforma, de pequena escala, com utilização de softwares e aplicativos diversos 2D e 3D tais como AutoCAD, ArchiCAD, SketchUp, Photoshop, Illustrator, V-Ray, Lumion.
+                          - Participação em Concursos de Arquitetura, em grupo e individual, com criação de projetos imaginativos, desenvolvendo capacidades de criatividade e resolução de problemas.</p>
                     </div>
                 </div> 
                 <hr>
@@ -95,15 +109,20 @@
                     <div class="col">
                         <h3>Estagiário de Arquitetura</h3>
                         <p>Sakaguti Arquitetos Associados</p>
+                        <p>Escritório com mais de 30 anos no mercado curitibano, com foco em projetos comerciais e 
+                          hospitalares. 
+                          - Participação na elaboração de projetos comerciais, de saúde e institucionais através de softwares 2D e 3D, tais como AutoCAD, SketchUP, ArchiCAD, Photoshop;
+                          - Visita técnica e medições em obras;
+                          - Atividades de escritório, como pesquisa, identificação e documentação dos projetos.</p>
                     </div>
                 </div> 
             </div>
             <!-- fim da coluna experiência -->
         </div>
     </div>
-</div>
+</section>
 
-<div class="section projetos ">
+<section class="section projetos ">
     <div class="container">
         <div data-aos="zoom-in-down" class="row ">
             <div  class="col-lg-3">
@@ -125,7 +144,7 @@
         </div>
 
     </div>
-</div>
+</section>
 
 <section class="publicacoes bg-azul">
     <div class="container">
@@ -151,7 +170,7 @@
             </div>
             <div class="col links">
           <span> <img src="./imagens/envelope-at.svg" alt="Email">  email: g.yujinak@gmail.com</span><hr>
-        <span><img src="./imagens/linkedin.svg" alt=""> linkedin: <a class="" href="https://www.linkedin.com/in/gabrielyujinakashima/">@gabrielnakashima</a></span><hr>
+        <span><img src="./imagens/linkedin.svg" alt=""> linkedin: <a class="" href="https://www.linkedin.com/in/gabrielyujinakashima/">@gabrielyujinakashima</a></span><hr>
         <span><img src="./imagens/github.svg" alt="">   github: <a href="https://github.com/yujinak">yujinak</a></span>
             </div>
         </div>

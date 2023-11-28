@@ -14,22 +14,20 @@ body {
   color: #fafafa;
 }
 
-nav {
-  padding: 1.5rem;
-  color: #fafafa;
-  .nav-link {
+header {
+  background-color: #1e1e1e;
+
+  nav {
+    padding: 1.5rem;
     color: #fafafa;
-    &:hover {
-      background-color: #367cc1;
+
+    .nav-link {
+      color: #fafafa;
+
+      &:hover {
+        background-color: #367cc11d;
+      }
     }
-  }
-
-  .navbar-text {
-    color: #367cc1;
-  }
-
-  .navbar-toggler {
-    background-color: #367cc1;
   }
 }
 
@@ -41,7 +39,7 @@ nav {
     line-height: 97px;
   }
   p {
-    color: #7e7e7e;
+    color: #fff;
     padding-bottom: 1.5rem;
   }
 
@@ -53,7 +51,8 @@ nav {
 
 #skills {
   padding: 5rem 0;
-  color: #22283b;
+  color: #fff;
+
   h2 {
     @include titulo;
   }
@@ -73,6 +72,12 @@ nav {
     padding: 1rem 0;
     color: #fff;
   }
+}
+
+.col-centered {
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .contato {
